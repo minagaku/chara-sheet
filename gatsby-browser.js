@@ -4,4 +4,8 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-// You can delete this file if you're not using it
+import React from "react"
+import { UsersProvider } from "./src/context/UsersContext"
+export const wrapRootElement = ({ element }) => (
+  <UsersProvider>{element}</UsersProvider>
+)

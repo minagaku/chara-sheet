@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `みながく`,
-    description: `見習い魔法師の`,
+    title: `見習い魔法師の学園日誌`,
+    description: `見習い魔法師の学園日誌-Cafeマンハッタン`,
     author: `@GenKuzumochi`,
   },
   plugins: [
