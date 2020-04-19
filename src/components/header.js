@@ -27,7 +27,9 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-    </div>
+      </div>
+    <a class="link" href="https://w.atwiki.jp/ragadoon/pages/1276.html"><img src="https://w.atwiki.jp/favicon.ico" /></a>
+    <a class="link" href="https://fujimi-trpg-online.jp/game/grancrest.html"><img src="https://fujimi-trpg-online.jp/themes/trpg-online/images/favicon.ico" /></a>
   </header>
 )
 

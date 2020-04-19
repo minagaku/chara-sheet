@@ -687,8 +687,26 @@ h1 a {
 100%{background-position:0% 50%}
 }
 
+.loading {
+  width:100%;
+  align-items: center;
+  font-size:48px;
+  font-family: "Dancing Script";
+  font-weight: 700;
+  background: linear-gradient(45deg,#168e7e,#d436b7);
+  background-size: 600% 600%;
+  animation: LoadingAnimation 10s ease infinite;
+  filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  line-height: 48px;
+  height:auto;
+}
+
 .loading img {
   animation: 10s linear infinite normal forwards running kaiten;
+  filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
 }
 
 .student-info .loading img {
@@ -727,7 +745,6 @@ h1 a {
   clip-path:url(#mahoujin1);
   width:100px;
   height:100px;
-  
 }
 
 .student-info .box {
@@ -840,4 +857,125 @@ Header {
   top:0;
   height:50px;
   z-index:1000;
+  display:flex;
+  flex-direction: row;
+}
+
+Header a.link{
+  border: 1px solid #CCC;
+  height: auto;
+  background: #FFF;
+  padding: 5px;
+  margin: 5px 2px;
+  border-radius: 3px;
+  display: block;
+}
+
+header a.link img{
+  width: 24px;
+  height: 24px;
+}
+
+.side-fusens {
+  margin-right:-10px;
+
+}
+
+.side-fusen{
+  background: url(../images/cream.jpg);
+  display: block;
+  margin:0.3em;
+  border-left:1em #933 solid;
+  box-shadow:1px 1px 3px #0009;
+}
+.side-fusen.current {
+  border-left:1em #336 solid;
+}
+
+.side-fusen a{
+  display: block;
+  text-decoration: none;
+  color:#300;
+  white-space: nowrap;
+  width:150px;
+  padding: 0.5em;
+  font-size:0.8rem;
+}
+
+.side-fusen:hover {
+  margin-left:-20px;
+  transition: 0.1s margin-left;
+}
+
+main > div {
+  display:flex;
+}
+
+.main{
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 0;
+  padding-left: 10px;
+}
+
+.mini-table{
+  display:flex;
+}
+
+.mini-table table{
+  width: 50%;
+}
+
+.container {
+  width:100%;
+}
+
+@media only screen and (max-width: 720px) {
+    
+  h1{
+    text-align: center;
+  }
+  h1 a{
+    font-size: 20px !important;
+  }
+  .student-info2 {
+    margin:0;
+    padding-left:0 !important;
+    padding-right:0 !important;
+    padding-top:0px !important;
+  }
+  .student-info-index h2{
+    font-size:20px;
+  }
+  .student-info-index h2 a{
+    display: block;
+    padding:0;
+  }
+  article{
+    padding-right: 0 !important;
+  }
+  .student-info-index .fusen
+  {
+    display: none;
+  }
+
+  .side-fusens {
+    display:none;
+  }
+
+  .student-detail {
+    padding-top:5em;
+    padding-right:0;
+  }
+
+  .age {
+    display:block;
+  }
+  .mini-table{
+    display: block;
+  }
+  .mini-table table{
+    width:100%;
+  }
+
 }

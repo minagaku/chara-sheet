@@ -22,13 +22,14 @@ const IndexPage = () => (
   <UsersContext.Consumer>{users =>
     <>
     <SEO title="Home" />
-    <div>
+    <div class="container">
       {users.users.length === 0 ? <Loading /> : users.users.map(st => <article class="student-info student-info-index" style={{ backgroundImage: `url(${oldPaper})`}}>
         <div class="student-info2">
         <h2>
-          <Link to={`/stu/${st.fullname}`}>{st.fullname}</Link>
-          <span class="age">{st.age}歳</span>
-          <span class="sex">{st.sex}</span>
+          <Link to={`/stu/${st.fullname}`}>
+            {st.fullname}
+            <span class="age">{st.age}歳　{st.sex}</span>
+          </Link>
         </h2>
         <div class="fusen-wrapper">
           <div class="fusen">
