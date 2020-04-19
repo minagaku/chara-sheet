@@ -1,6 +1,5 @@
 module.exports = {
-  pathPrefix: "/student",
-  assetPrefix: "/student",
+  pathPrefix: "/students",
   siteMetadata: {
     title: `見習い魔法師の学園日誌`,
     description: `見習い魔法師の学園日誌-Cafeマンハッタン`,
