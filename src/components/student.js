@@ -6,7 +6,9 @@ import SEO from "./seo"
 import UsersContext from "../context/UsersContext"
 import twitter from "../images/twitter.svg"
 import oldPaper from "../images/old-paper-back.jpg"
-import mahoujin from "../images/mahoujin.svg"
+import Mahoujin from "../images/mahoujinx.inline.svg"
+import mj from "../images/mj.svg"
+import Loading from "./loading";
 
 const ragaTable =
 {
@@ -16,17 +18,21 @@ const ragaTable =
   "非会員": "Ragadoon\nnon-member",
 }
 
+
+
 function renderUser(users, name) {
-  if (users.length === 0) return <div>Loading<img src={ mahoujin } /></div>
+  if (users.length === 0) return <div class="student-info" style={{ backgroundImage: `url(${oldPaper})` , display: "flex" , justifyContent: "center" }}>
+    <div class="student-info2">
+      <Loading />
+    </div>
+  </div>
   const st = users.find(x => x.fullname === name);
   if (!st) return <div>学生 {name} が見つかりません</div>
-  return <div id="student-info" style={{ backgroundImage: `url(${oldPaper})` }}>
-    <div class="loading">
-      <img src={ mahoujin } />
-      Loading...
-    </div>
-    <div id="student-info2">
-      <h2>{st.fullname}
+  return <div class="student-info" style={{ backgroundImage: `url(${oldPaper})` }}>
+    
+    <div class="student-info2">
+      <h2>
+        <Link to={`/stu/${st.fullname}`}>{st.fullname}</Link>
         <span class="age">{st.age}歳</span>
         <span class="sex">{st.sex}</span>
       </h2>

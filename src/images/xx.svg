@@ -1,0 +1,381 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 354.94 354.94">
+  <defs>
+    <clipPath id="clip-path">
+      <path d="M340.66,267.71l-5.87-20.47,18.6-9.07.54-.26-34.74-71.24c.08,1.05.14,2.09.2,3.14l32.94,67.54-17.87,8.72-15.63-54.51c-.11,1-.23,2.07-.36,3.11l14.89,51.93L284.8,270.29c-.68.79-1.37,1.57-2.07,2.35l51-24.86,5.48,19.11L266.94,287.6c-.81.66-1.63,1.31-2.46,2l75.59-21.72ZM289.55,89.46,267.87,13.85l-.17-.58-20.47,5.87L238.16.54,237.9,0,166.67,34.75c1-.08,2.09-.15,3.13-.2L237.35,1.61l8.72,17.87L191.55,35.11l3.11.36,51.94-14.9,23.68,48.57c.79.68,1.58,1.37,2.35,2.07l-24.86-51,19.11-5.48L287.59,87C288.26,87.81,288.91,88.63,289.55,89.46ZM115.77,353.4l.26.54,71.23-34.74c-1,.07-2.09.14-3.14.19l-67.54,32.95-8.72-17.87,54.52-15.64c-1-.1-2.07-.22-3.11-.35l-51.94,14.89L83.64,284.81c-.79-.69-1.57-1.38-2.34-2.08l24.86,51-19.09,5.46L66.33,267c-.66-.82-1.31-1.64-2-2.47l21.74,75.56.16.58,20.47-5.87ZM1.6,116.59l17.87-8.72,15.6,54.52c.11-1,.23-2.08.36-3.11L20.57,107.34,69.13,83.65q1-1.19,2.07-2.34l-51,24.86L14.72,87.05,87,66.34c.81-.67,1.63-1.33,2.46-2L13.26,86.23l5.87,20.47L.53,115.77,0,116l34.74,71.23c-.08-1-.14-2.09-.2-3.14Z" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <text transform="translate(249.37 61.73) rotate(-149.2)" clip-path="url(#clip-path-109)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">i</text>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <text transform="translate(302.83 228.73) rotate(-68.84)" clip-path="url(#clip-path-119)" font-size="11.97" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">n</text>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <text transform="matrix(0.32, -0.95, 0.95, 0.32, 305.08, 222.88)" clip-path="url(#clip-path-3)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">a</text>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <text transform="translate(308.78 210.91) rotate(-76.76)" clip-path="url(#clip-path-4)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">a</text>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <text transform="matrix(0.18, -0.98, 0.98, 0.18, 310.21, 204.79)" clip-path="url(#clip-path-5)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">l</text>
+    </clipPath>
+    <clipPath id="clip-path-7">
+      <text transform="translate(311.35 198.63) rotate(-82.08)" clip-path="url(#clip-path-6)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">i</text>
+    </clipPath>
+    <clipPath id="clip-path-8">
+      <text transform="translate(312.21 192.41) rotate(-84.74)" clip-path="url(#clip-path-7)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">q</text>
+    </clipPath>
+    <clipPath id="clip-path-9">
+      <text transform="translate(312.78 186.17) rotate(-87.14)" clip-path="url(#clip-path-8)" font-size="12.01" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">u</text>
+    </clipPath>
+    <clipPath id="clip-path-10">
+      <text transform="matrix(0, -1, 1, 0, 313.06, 179.91)" clip-path="url(#clip-path-9)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">a</text>
+    </clipPath>
+    <clipPath id="clip-path-11">
+      <text transform="translate(312.74 167.37) rotate(-95.36)" clip-path="url(#clip-path-10)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">U</text>
+    </clipPath>
+    <clipPath id="clip-path-12">
+      <text transform="translate(312.15 161.12) rotate(-98)" clip-path="url(#clip-path-11)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">t</text>
+    </clipPath>
+    <clipPath id="clip-path-13">
+      <text transform="translate(243.98 58.52) rotate(-151.83)" clip-path="url(#clip-path-2)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">p</text>
+    </clipPath>
+    <clipPath id="clip-path-14">
+      <text transform="translate(310.11 148.76) rotate(-103.27)" clip-path="url(#clip-path-12)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">e</text>
+    </clipPath>
+    <clipPath id="clip-path-15">
+      <text transform="matrix(-0.27, -0.96, 0.96, -0.27, 308.66, 142.66)" clip-path="url(#clip-path-14)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">n</text>
+    </clipPath>
+    <clipPath id="clip-path-16">
+      <text transform="matrix(-0.32, -0.95, 0.95, -0.32, 306.94, 136.63)" clip-path="url(#clip-path-15)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">i</text>
+    </clipPath>
+    <clipPath id="clip-path-17">
+      <text transform="translate(304.94 130.69) rotate(-111.15)" clip-path="url(#clip-path-16)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">m</text>
+    </clipPath>
+    <clipPath id="clip-path-18">
+      <text transform="translate(300.14 119.11) rotate(-116.05)" clip-path="url(#clip-path-17)" font-size="12.02" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">a</text>
+    </clipPath>
+    <clipPath id="clip-path-19">
+      <text transform="translate(297.35 113.49) rotate(-119.02)" clip-path="url(#clip-path-18)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">d</text>
+    </clipPath>
+    <clipPath id="clip-path-20">
+      <path d="M63.07,126.25a124.74,124.74,0,1,1-2.49,95.41A124.73,124.73,0,0,1,63.07,126.25ZM290.16,227.37a123.91,123.91,0,1,0-163.6,62.8A123.9,123.9,0,0,0,290.16,227.37Z" fill="none" clip-path="url(#clip-path-19)"/>
+    </clipPath>
+    <clipPath id="clip-path-21">
+      <path d="M65.33,127.27a122.2,122.2,0,1,1-2.45,93.49A122.2,122.2,0,0,1,65.33,127.27ZM287.14,226a120.6,120.6,0,1,0-159.23,61.12A120.6,120.6,0,0,0,287.14,226Z" fill="none" clip-path="url(#clip-path-20)"/>
+    </clipPath>
+    <clipPath id="clip-path-22">
+      <path d="M80.74,246.56,164.29,58.9l.41.56L285.07,225.09ZM164.46,60.49,82.07,245.62l201.55-21.18Z" fill="none" clip-path="url(#clip-path-21)"/>
+    </clipPath>
+    <clipPath id="clip-path-23">
+      <path d="M68.53,128.69l204.29-21.47L189.27,294.88Zm203-20.53L70,129.34l119.08,164Z" fill="none" clip-path="url(#clip-path-22)"/>
+    </clipPath>
+    <clipPath id="clip-path-24">
+      <text transform="translate(238.46 55.57) rotate(-154.43)" clip-path="url(#clip-path-13)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">s</text>
+    </clipPath>
+    <clipPath id="clip-path-25">
+      <text transform="matrix(-0.92, -0.39, 0.39, -0.92, 232.85, 52.89)" clip-path="url(#clip-path-24)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">u</text>
+    </clipPath>
+    <clipPath id="clip-path-26">
+      <text transform="matrix(-0.94, -0.35, 0.35, -0.94, 227.1, 50.46)" clip-path="url(#clip-path-25)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">m</text>
+    </clipPath>
+    <clipPath id="clip-path-27">
+      <text transform="translate(215.25 46.37) rotate(-165)" clip-path="url(#clip-path-26)" font-size="12.05" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">d</text>
+    </clipPath>
+    <clipPath id="clip-path-28">
+      <text transform="translate(209.21 44.74) rotate(-167.35)" clip-path="url(#clip-path-27)" font-size="12.05" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">o</text>
+    </clipPath>
+    <clipPath id="clip-path-29">
+      <text transform="translate(203.08 43.38) rotate(-170.26)" clip-path="url(#clip-path-28)" font-size="12.05" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">l</text>
+    </clipPath>
+    <clipPath id="clip-path-30">
+      <text transform="matrix(-0.99, -0.12, 0.12, -0.99, 196.89, 42.32)" clip-path="url(#clip-path-29)" font-size="11.97" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">o</text>
+    </clipPath>
+    <clipPath id="clip-path-31">
+      <text transform="translate(190.67 41.54) rotate(-175.49)" clip-path="url(#clip-path-30)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">r</text>
+    </clipPath>
+    <clipPath id="clip-path-32">
+      <path d="M49.53,120.23A139.48,139.48,0,1,1,46.73,227,139.49,139.49,0,0,1,49.53,120.23ZM303.67,233.38c31.1-69.86-.43-152-70.29-183.11s-152,.42-183.12,70.29.43,152,70.29,183.11S272.56,303.25,303.67,233.38Z" fill="none" clip-path="url(#clip-path)"/>
+    </clipPath>
+    <clipPath id="clip-path-33">
+      <text transform="matrix(-1, 0.01, -0.01, -1, 178.15, 40.86)" clip-path="url(#clip-path-31)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">s</text>
+    </clipPath>
+    <clipPath id="clip-path-34">
+      <text transform="translate(171.88 40.95) rotate(176.55)" clip-path="url(#clip-path-33)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">i</text>
+    </clipPath>
+    <clipPath id="clip-path-35">
+      <text transform="translate(165.62 41.34) rotate(173.66)" clip-path="url(#clip-path-34)" font-size="11.95" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">t</text>
+    </clipPath>
+    <clipPath id="clip-path-36">
+      <text transform="matrix(-0.98, 0.2, -0.2, -0.98, 153.19, 42.97)" clip-path="url(#clip-path-35)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">a</text>
+    </clipPath>
+    <clipPath id="clip-path-37">
+      <text transform="translate(147.04 44.21) rotate(165.99)" clip-path="url(#clip-path-36)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">m</text>
+    </clipPath>
+    <clipPath id="clip-path-38">
+      <text transform="translate(140.96 45.74) rotate(163.37)" clip-path="url(#clip-path-37)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">e</text>
+    </clipPath>
+    <clipPath id="clip-path-39">
+      <text transform="translate(134.95 47.54) rotate(160.74)" clip-path="url(#clip-path-38)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">t</text>
+    </clipPath>
+    <clipPath id="clip-path-40">
+      <text transform="translate(123.23 51.95) rotate(155.5)" clip-path="url(#clip-path-39)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">c</text>
+    </clipPath>
+    <clipPath id="clip-path-41">
+      <text transform="matrix(-0.89, 0.46, -0.46, -0.89, 117.52, 54.56)" clip-path="url(#clip-path-40)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">o</text>
+    </clipPath>
+    <clipPath id="clip-path-42">
+      <text transform="matrix(-0.87, 0.5, -0.5, -0.87, 111.95, 57.43)" clip-path="url(#clip-path-41)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">n</text>
+    </clipPath>
+    <clipPath id="clip-path-43">
+      <path d="M51.94,121.31A136.86,136.86,0,1,1,49.2,226,136.85,136.85,0,0,1,51.94,121.31ZM300.52,232c30.34-68.13-.41-148.23-68.54-178.57S83.74,53.83,53.41,122,53.82,270.24,122,300.57,270.19,300.11,300.52,232Z" fill="none" clip-path="url(#clip-path-32)"/>
+    </clipPath>
+    <clipPath id="clip-path-44">
+      <text transform="matrix(-0.84, 0.54, -0.54, -0.84, 106.51, 60.54)" clip-path="url(#clip-path-42)" font-size="11.98" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">s</text>
+    </clipPath>
+    <clipPath id="clip-path-45">
+      <text transform="translate(101.22 63.9) rotate(144.97)" clip-path="url(#clip-path-44)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">e</text>
+    </clipPath>
+    <clipPath id="clip-path-46">
+      <text transform="translate(96.08 67.51) rotate(142.32)" clip-path="url(#clip-path-45)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">c</text>
+    </clipPath>
+    <clipPath id="clip-path-47">
+      <text transform="translate(91.12 71.35) rotate(139.46)" clip-path="url(#clip-path-46)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">t</text>
+    </clipPath>
+    <clipPath id="clip-path-48">
+      <text transform="translate(86.35 75.41) rotate(137.02)" clip-path="url(#clip-path-47)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">e</text>
+    </clipPath>
+    <clipPath id="clip-path-49">
+      <text transform="matrix(-0.7, 0.71, -0.71, -0.7, 81.77, 79.69)" clip-path="url(#clip-path-48)" font-size="11.96" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">t</text>
+    </clipPath>
+    <clipPath id="clip-path-50">
+      <text transform="translate(77.39 84.18) rotate(131.7)" clip-path="url(#clip-path-49)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">u</text>
+    </clipPath>
+    <clipPath id="clip-path-51">
+      <text transform="translate(73.22 88.87) rotate(129.04)" clip-path="url(#clip-path-50)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">r</text>
+    </clipPath>
+    <clipPath id="clip-path-52">
+      <text transform="translate(65.56 98.8) rotate(124.01)" clip-path="url(#clip-path-51)" font-size="12.01" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">a</text>
+    </clipPath>
+    <clipPath id="clip-path-53">
+      <text transform="matrix(-0.52, 0.86, -0.86, -0.52, 62.08, 104.02)" clip-path="url(#clip-path-52)" font-size="12.06" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">d</text>
+    </clipPath>
+    <clipPath id="clip-path-54">
+      <circle cx="176.97" cy="176.97" r="136.05" fill="none" clip-path="url(#clip-path-43)"/>
+    </clipPath>
+    <clipPath id="clip-path-55">
+      <text transform="translate(58.85 109.39) rotate(118.61)" clip-path="url(#clip-path-53)" font-size="12.03" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">i</text>
+    </clipPath>
+    <clipPath id="clip-path-56">
+      <text transform="translate(55.87 114.91) rotate(115.84)" clip-path="url(#clip-path-55)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">p</text>
+    </clipPath>
+    <clipPath id="clip-path-57">
+      <text transform="translate(53.13 120.56) rotate(112.97)" clip-path="url(#clip-path-56)" font-size="11.99" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">i</text>
+    </clipPath>
+    <clipPath id="clip-path-58">
+      <text transform="translate(50.69 126.29) rotate(110.66)" clip-path="url(#clip-path-57)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">s</text>
+    </clipPath>
+    <clipPath id="clip-path-59">
+      <text transform="translate(48.48 132.15) rotate(108.04)" clip-path="url(#clip-path-58)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">i</text>
+    </clipPath>
+    <clipPath id="clip-path-60">
+      <text transform="matrix(-0.27, 0.96, -0.96, -0.27, 46.55, 138.12)" clip-path="url(#clip-path-59)" font-size="11.97" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">c</text>
+    </clipPath>
+    <clipPath id="clip-path-61">
+      <text transform="translate(44.89 144.17) rotate(102.65)" clip-path="url(#clip-path-60)" font-size="12.05" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">i</text>
+    </clipPath>
+    <clipPath id="clip-path-62">
+      <text transform="translate(43.51 150.28) rotate(100.09)" clip-path="url(#clip-path-61)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">n</text>
+    </clipPath>
+    <clipPath id="clip-path-63">
+      <text transform="translate(42.42 156.46) rotate(97.48)" clip-path="url(#clip-path-62)" font-size="11.98" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">g</text>
+    </clipPath>
+    <clipPath id="clip-path-64">
+      <text transform="translate(41.1 168.93) rotate(92.1)" clip-path="url(#clip-path-63)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">e</text>
+    </clipPath>
+    <clipPath id="clip-path-65">
+      <text transform="translate(278.1 85.86) rotate(-133.39)" clip-path="url(#clip-path-54)" font-size="12.05" fill="none" font-family="ArialMT, Arial" letter-spacing="-0.08em" style="isolation: isolate">L</text>
+    </clipPath>
+    <clipPath id="clip-path-66">
+      <text transform="matrix(0.01, 1, -1, 0.01, 40.87, 175.2)" clip-path="url(#clip-path-64)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">l</text>
+    </clipPath>
+    <clipPath id="clip-path-67">
+      <text transform="matrix(0.06, 1, -1, 0.06, 40.94, 181.47)" clip-path="url(#clip-path-66)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">i</text>
+    </clipPath>
+    <clipPath id="clip-path-68">
+      <text transform="translate(41.3 187.73) rotate(84.15)" clip-path="url(#clip-path-67)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">t</text>
+    </clipPath>
+    <clipPath id="clip-path-69">
+      <text transform="matrix(0.19, 0.98, -0.98, 0.19, 42.88, 200.17)" clip-path="url(#clip-path-68)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">s</text>
+    </clipPath>
+    <clipPath id="clip-path-70">
+      <text transform="translate(44.09 206.33) rotate(76.24)" clip-path="url(#clip-path-69)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">e</text>
+    </clipPath>
+    <clipPath id="clip-path-71">
+      <text transform="translate(45.59 212.41) rotate(73.74)" clip-path="url(#clip-path-70)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">d</text>
+    </clipPath>
+    <clipPath id="clip-path-72">
+      <text transform="translate(49.41 224.35) rotate(68.3)" clip-path="url(#clip-path-71)" font-size="12.01" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">d</text>
+    </clipPath>
+    <clipPath id="clip-path-73">
+      <text transform="translate(51.73 230.17) rotate(65.74)" clip-path="url(#clip-path-72)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">o</text>
+    </clipPath>
+    <clipPath id="clip-path-74">
+      <text transform="matrix(0.49, 0.87, -0.87, 0.49, 57.15, 241.47)" clip-path="url(#clip-path-73)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">e</text>
+    </clipPath>
+    <clipPath id="clip-path-75">
+      <text transform="translate(60.25 246.93) rotate(58.06)" clip-path="url(#clip-path-74)" font-size="12.02" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">i</text>
+    </clipPath>
+    <clipPath id="clip-path-76">
+      <text transform="translate(273.79 81.29) rotate(-135.92)" clip-path="url(#clip-path-65)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">o</text>
+    </clipPath>
+    <clipPath id="clip-path-77">
+      <text transform="matrix(0.57, 0.82, -0.82, 0.57, 63.59, 252.23)" clip-path="url(#clip-path-75)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">u</text>
+    </clipPath>
+    <clipPath id="clip-path-78">
+      <text transform="matrix(0.61, 0.79, -0.79, 0.61, 67.16, 257.37)" clip-path="url(#clip-path-77)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">s</text>
+    </clipPath>
+    <clipPath id="clip-path-79">
+      <text transform="matrix(0.64, 0.77, -0.77, 0.64, 70.98, 262.35)" clip-path="url(#clip-path-78)" font-size="12.01" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">m</text>
+    </clipPath>
+    <clipPath id="clip-path-80">
+      <text transform="matrix(0.68, 0.73, -0.73, 0.68, 75.02, 267.15)" clip-path="url(#clip-path-79)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">o</text>
+    </clipPath>
+    <clipPath id="clip-path-81">
+      <text transform="matrix(0.71, 0.7, -0.7, 0.71, 79.29, 271.75)" clip-path="url(#clip-path-80)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">d</text>
+    </clipPath>
+    <clipPath id="clip-path-82">
+      <text transform="matrix(0.77, 0.63, -0.63, 0.77, 88.43, 280.34)" clip-path="url(#clip-path-81)" font-size="11.94" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">t</text>
+    </clipPath>
+    <clipPath id="clip-path-83">
+      <text transform="matrix(0.8, 0.6, -0.6, 0.8, 93.28, 284.31)" clip-path="url(#clip-path-82)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">e</text>
+    </clipPath>
+    <clipPath id="clip-path-84">
+      <text transform="translate(98.32 288.04) rotate(34.01)" clip-path="url(#clip-path-83)" font-size="12.01" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">m</text>
+    </clipPath>
+    <clipPath id="clip-path-85">
+      <text transform="translate(103.53 291.54) rotate(31.33)" clip-path="url(#clip-path-84)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">p</text>
+    </clipPath>
+    <clipPath id="clip-path-86">
+      <text transform="translate(108.89 294.8) rotate(28.7)" clip-path="url(#clip-path-85)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">o</text>
+    </clipPath>
+    <clipPath id="clip-path-87">
+      <text transform="matrix(-0.75, -0.66, 0.66, -0.75, 269.28, 76.93)" clip-path="url(#clip-path-76)" font-size="11.99" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">r</text>
+    </clipPath>
+    <clipPath id="clip-path-88">
+      <text transform="translate(114.38 297.8) rotate(26.08)" clip-path="url(#clip-path-86)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">r</text>
+    </clipPath>
+    <clipPath id="clip-path-89">
+      <text transform="translate(125.75 303.04) rotate(20.9)" clip-path="url(#clip-path-88)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">i</text>
+    </clipPath>
+    <clipPath id="clip-path-90">
+      <text transform="matrix(0.95, 0.31, -0.31, 0.95, 131.61, 305.27)" clip-path="url(#clip-path-89)" font-size="11.99" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">n</text>
+    </clipPath>
+    <clipPath id="clip-path-91">
+      <text transform="translate(137.57 307.23) rotate(15.64)" clip-path="url(#clip-path-90)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">c</text>
+    </clipPath>
+    <clipPath id="clip-path-92">
+      <text transform="translate(143.61 308.92) rotate(12.99)" clip-path="url(#clip-path-91)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">i</text>
+    </clipPath>
+    <clipPath id="clip-path-93">
+      <text transform="translate(149.72 310.32) rotate(10.34)" clip-path="url(#clip-path-92)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">d</text>
+    </clipPath>
+    <clipPath id="clip-path-94">
+      <text transform="translate(155.9 311.44) rotate(7.48)" clip-path="url(#clip-path-93)" font-size="11.98" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">i</text>
+    </clipPath>
+    <clipPath id="clip-path-95">
+      <text transform="matrix(1, 0.09, -0.09, 1, 162.11, 312.27)" clip-path="url(#clip-path-94)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">d</text>
+    </clipPath>
+    <clipPath id="clip-path-96">
+      <text transform="translate(168.37 312.81) rotate(2.35)" clip-path="url(#clip-path-95)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">u</text>
+    </clipPath>
+    <clipPath id="clip-path-97">
+      <text transform="translate(174.63 313.06) rotate(-0.31)" clip-path="url(#clip-path-96)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">n</text>
+    </clipPath>
+    <clipPath id="clip-path-98">
+      <text transform="translate(264.58 72.79) rotate(-141.24)" clip-path="url(#clip-path-87)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">e</text>
+    </clipPath>
+    <clipPath id="clip-path-99">
+      <text transform="translate(180.91 313.02) rotate(-2.86)" clip-path="url(#clip-path-97)" font-size="12.01" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">t</text>
+    </clipPath>
+    <clipPath id="clip-path-100">
+      <text transform="translate(193.41 312.07) rotate(-8.25)" clip-path="url(#clip-path-99)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">u</text>
+    </clipPath>
+    <clipPath id="clip-path-101">
+      <text transform="translate(199.61 311.16) rotate(-10.89)" clip-path="url(#clip-path-100)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">t</text>
+    </clipPath>
+    <clipPath id="clip-path-102">
+      <text transform="translate(211.85 308.5) rotate(-16.14)" clip-path="url(#clip-path-101)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">l</text>
+    </clipPath>
+    <clipPath id="clip-path-103">
+      <text transform="translate(217.87 306.76) rotate(-18.76)" clip-path="url(#clip-path-102)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">a</text>
+    </clipPath>
+    <clipPath id="clip-path-104">
+      <text transform="matrix(0.93, -0.36, 0.36, 0.93, 223.81, 304.73)" clip-path="url(#clip-path-103)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">b</text>
+    </clipPath>
+    <clipPath id="clip-path-105">
+      <text transform="translate(229.65 302.44) rotate(-24.02)" clip-path="url(#clip-path-104)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">o</text>
+    </clipPath>
+    <clipPath id="clip-path-106">
+      <text transform="matrix(0.89, -0.45, 0.45, 0.89, 235.37, 299.88)" clip-path="url(#clip-path-105)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">r</text>
+    </clipPath>
+    <clipPath id="clip-path-107">
+      <text transform="matrix(0.87, -0.49, 0.49, 0.87, 240.97, 297.07)" clip-path="url(#clip-path-106)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">e</text>
+    </clipPath>
+    <clipPath id="clip-path-108">
+      <text transform="matrix(0.82, -0.57, 0.57, 0.82, 251.76, 290.68)" clip-path="url(#clip-path-107)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">e</text>
+    </clipPath>
+    <clipPath id="clip-path-109">
+      <text transform="translate(259.68 68.87) rotate(-143.93)" clip-path="url(#clip-path-98)" font-size="12.03" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">m</text>
+    </clipPath>
+    <clipPath id="clip-path-110">
+      <text transform="translate(256.91 287.12) rotate(-37.18)" clip-path="url(#clip-path-108)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">t</text>
+    </clipPath>
+    <clipPath id="clip-path-111">
+      <text transform="matrix(0.74, -0.68, 0.68, 0.74, 266.73, 279.29)" clip-path="url(#clip-path-110)" font-size="12.06" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">d</text>
+    </clipPath>
+    <clipPath id="clip-path-112">
+      <text transform="translate(271.35 275.05) rotate(-45)" clip-path="url(#clip-path-111)" font-size="12.05" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">o</text>
+    </clipPath>
+    <clipPath id="clip-path-113">
+      <text transform="matrix(0.67, -0.74, 0.74, 0.67, 275.76, 270.61)" clip-path="url(#clip-path-112)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">l</text>
+    </clipPath>
+    <clipPath id="clip-path-114">
+      <text transform="translate(279.97 265.95) rotate(-50.47)" clip-path="url(#clip-path-113)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">o</text>
+    </clipPath>
+    <clipPath id="clip-path-115">
+      <text transform="matrix(0.6, -0.8, 0.8, 0.6, 283.96, 261.12)" clip-path="url(#clip-path-114)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">r</text>
+    </clipPath>
+    <clipPath id="clip-path-116">
+      <text transform="translate(287.72 256.09) rotate(-55.78)" clip-path="url(#clip-path-115)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">e</text>
+    </clipPath>
+    <clipPath id="clip-path-117">
+      <text transform="translate(294.52 245.56) rotate(-61.39)" clip-path="url(#clip-path-116)" font-size="12.03" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">m</text>
+    </clipPath>
+    <clipPath id="clip-path-118">
+      <text transform="translate(297.54 240.07) rotate(-63.95)" clip-path="url(#clip-path-117)" font-size="12.02" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">a</text>
+    </clipPath>
+    <clipPath id="clip-path-119">
+      <text transform="translate(300.35 234.46) rotate(-66.93)" clip-path="url(#clip-path-118)" font-size="12" fill="none" font-family="ArialMT, Arial" style="isolation: isolate">g</text>
+    </clipPath>
+    <clipPath id="clip-path-120" transform="translate(0.5 0.5)">
+      <path d="M207.74,267.24l-1.15,2.95q2.73-.87,5.43-1.9A97.1,97.1,0,0,0,256.5,234l-3.12.18A95.52,95.52,0,0,1,207.74,267.24Zm35.2-162.55a98.78,98.78,0,0,0-56.41-25.12l1.73,2.65a95.43,95.43,0,0,1,51.56,23Zm25.34,37.23c-.67-1.8-1.4-3.57-2.21-5.3l-1.43,2.82a95.39,95.39,0,0,1,5.93,56.07l2,2.44a97.14,97.14,0,0,0-4.29-56Zm-97.6,137.46L169,276.81a100.2,100.2,0,0,1-60.92-27.11l-3,.47a103.26,103.26,0,0,0,65.61,29.21Zm75.14-175.13,3-.47a103.22,103.22,0,0,0-65.61-29.22l1.68,2.58a100.09,100.09,0,0,1,60.89,27.11ZM146.19,86.71l1.14-3q-2.72.87-5.42,1.9A97.07,97.07,0,0,0,97.43,120l3.12-.18A95.46,95.46,0,0,1,146.19,86.71ZM85.64,212c.69,1.79,1.44,3.56,2.22,5.3l1.43-2.83a95.39,95.39,0,0,1-5.93-56.07l-2-2.44A97.18,97.18,0,0,0,85.64,212Zm-6.09-58.34-1.9-2.36a101.82,101.82,0,0,0,3.57,62.39q1.77,4.6,3.94,9l1.39-2.76a100.19,100.19,0,0,1-7-66.24Zm194.83,46.56,1.9,2.36a101.82,101.82,0,0,0-3.57-62.39q-1.77-4.6-3.94-9L267.38,134a100.21,100.21,0,0,1,7,66.25ZM148.39,81l1.12-2.87q-4.69,1.31-9.3,3.07a101.73,101.73,0,0,0-48.75,39.09l3-.17A100.23,100.23,0,0,1,148.39,81Zm19,193.34-1.73-2.64a95.61,95.61,0,0,1-51.56-23l-3.13.48a98.85,98.85,0,0,0,56.42,25.12Zm95.07-40.75-3,.17a100.23,100.23,0,0,1-53.91,39.12l-1.12,2.88q4.69-1.32,9.3-3.08a101.75,101.75,0,0,0,48.74-39.06Z" fill="none" clip-path="url(#clip-path-23)"/>
+    </clipPath>
+    <linearGradient id="名称未設定グラデーション_60" data-name="名称未設定グラデーション 60" x1="0.5" y1="177.47" x2="354.44" y2="177.47" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#168e7e"/>
+      <stop offset="0.92" stop-color="#d436b7"/>
+    </linearGradient>
+    <linearGradient id="新規グラデーションスウォッチ_1" data-name="新規グラデーションスウォッチ 1" y1="177.47" x2="354.94" y2="177.47" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#168e7e"/>
+      <stop offset="1" stop-color="#d436b7"/>
+    </linearGradient>
+  </defs>
+  <title>xx</title>
+  <g id="レイヤー_1" data-name="レイヤー 1">
+    <g clip-path="url(#clip-path-120)">
+      <rect x="0.5" y="0.5" width="353.94" height="353.94" stroke-miterlimit="10" fill="url(#名称未設定グラデーション_60)" stroke="url(#新規グラデーションスウォッチ_1)"/>
+    </g>
+  </g>
+  <g id="レイヤー_3" data-name="レイヤー 3">
+    <rect x="69.03" y="57.93" width="175.45" height="190.88" fill="#040000" stroke="#000" stroke-miterlimit="10"/>
+  </g>
+</svg>
