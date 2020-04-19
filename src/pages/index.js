@@ -10,8 +10,8 @@ const RootPage = (props) => (
   <Layout>
     <Router basepath={props.uri}>
       <IndexPage path="/" />
-      <StudentPage path="stu/:name" />
-      <Default path="/hoge" />
+      <IndexPage path="/index.html" />
+      <StudentPage path=":name" />
     </Router>
   </Layout>
 )

@@ -26,7 +26,7 @@ const IndexPage = () => (
       {users.users.length === 0 ? <Loading /> : users.users.map(st => <article class="student-info student-info-index" style={{ backgroundImage: `url(${oldPaper})`}}>
         <div class="student-info2">
         <h2>
-          <Link to={`/stu/${st.fullname}`}>
+          <Link to={`/${st.fullname}`}>
             {st.fullname}
             <span class="age">{st.age}歳　{st.sex}</span>
           </Link>

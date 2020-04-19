@@ -34,7 +34,7 @@ function renderUser(users, name) {
     <div class="student-info student-detail" style={{ backgroundImage: `url(${oldPaper})` }}>
       <div class="student-info2">
         <h2>
-          <Link to={`/stu/${st.fullname}`}>{st.fullname}</Link>
+          <Link to={`/${st.fullname}`}>{st.fullname}</Link>
           <span class="age">{st.age}歳 {st.sex}</span>
         </h2>
         <div class="fusen-wrapper">

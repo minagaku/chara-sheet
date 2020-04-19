@@ -15,7 +15,7 @@ const FusenList = (props) => (
     {
         props.users.map(st => 
             <div class={ "side-fusen " + (st.fullname === props.current ? "current" : "") }>
-                <Link to={`/stu/${st.fullname}`}>
+                <Link to={`/${st.fullname}`}>
                     {st.fullname}
                     {/* <span class="age">{st.age}歳</span> */}
                     {/* <span class="sex">{st.sex}</span> */}
