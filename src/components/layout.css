@@ -738,6 +738,10 @@ h1 a {
   height:0;
 }
 
+.student-detail {
+  flex-grow: 1;
+}
+
 .student-info .load-mahou{
   background-image: linear-gradient(#168e7e,#d436b7);
   color: transparent;
@@ -745,6 +749,14 @@ h1 a {
   clip-path:url(#mahoujin1);
   width:100px;
   height:100px;
+}
+
+.a2 th {
+  width: 4em;
+}
+
+.a3 th {
+  width: 8em;
 }
 
 .student-info .box {
@@ -850,7 +862,9 @@ body {
   margin-top: 70px;
 }
 
-Header {
+
+
+header {
   box-shadow: 2px 2px 3px #00000066;
   position:fixed;
   width:100%;
@@ -861,7 +875,7 @@ Header {
   flex-direction: row;
 }
 
-Header a.link{
+header a.link{
   border: 1px solid #CCC;
   height: auto;
   background: #FFF;
@@ -918,13 +932,42 @@ main > div {
   padding-left: 10px;
 }
 
+.mini-grid{
+  display:grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  grid-template-areas:
+  "a1 a2"
+  "a1 a3"
+}
+
+.mini-grid img {
+  grid-row: 1/2;
+  grid-area: a1;
+  margin: 1em;
+  max-width:300px;
+  box-shadow: 3px 3px 5px #00000066;
+  
+}
+
+.mini-grid .a2{
+  grid-area: a2;
+}
+.mini-grid .a3{
+  grid-area: a3;
+}
+
+
 .mini-table{
-  display:flex;
+  display: flex;
+  width: 100%;
 }
 
 .mini-table table{
-  width: 50%;
+  width:auto;
+  margin-right: 1em;
+  min-width: 30%;
 }
+
 
 .container {
   width:100%;
@@ -963,7 +1006,7 @@ main > div {
     display:none;
   }
 
-  .student-detail {
+  .student-detail{
     padding-top:5em;
     padding-right:0;
   }
@@ -976,6 +1019,16 @@ main > div {
   }
   .mini-table table{
     width:100%;
+    flex-direction: column;
+  }
+
+  .mini-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mini-table th, .mini-grid th{
+    width: 8em;
   }
 
 }

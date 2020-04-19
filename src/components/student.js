@@ -31,9 +31,7 @@ function renderUser(users, name) {
   if (!st) return <div>学生 {name} が見つかりません</div>
   return <>
     <FusenList users={users} current={name} />
-
     <div class="student-info student-detail" style={{ backgroundImage: `url(${oldPaper})` }}>
-
       <div class="student-info2">
         <h2>
           <Link to={`/stu/${st.fullname}`}>{st.fullname}</Link>
@@ -47,8 +45,9 @@ function renderUser(users, name) {
             {st.twitter ? <a href={`https://twitter.com/${st.twitter}`}><img src={twitter} /></a> : ""}
           </div>
         </div>
-        <div class="mini-table">
-          <table>
+        <div class={st.chara_card ? "mini-grid" : "mini-table" }>
+          { st.chara_card ? <img src={ st.chara_card } /> : "" }
+          <table class="a2">
             <tr>
               <th>出自</th>
               <td>{st.from}</td>
@@ -62,7 +61,7 @@ function renderUser(users, name) {
               <td>{st.exp2}</td>
             </tr>
           </table>
-          <table>
+          <table class="a3">
             <tr>
               <th>信念/禁忌</th>
               <td>{st.taboo}</td>
