@@ -8,7 +8,7 @@ import StudentPage from "../components/student";
 
 const RootPage = (props) => (
   <Layout>
-    <Router basepath={props.uri.includes("/students") ? "/students" : ""}>
+    <Router basepath="/students">
       <IndexPage path="/" />
       <IndexPage path="/index.html" />
       <StudentPage path=":name" />

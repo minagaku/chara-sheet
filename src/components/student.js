@@ -78,7 +78,7 @@ function renderUser(users, name) {
         </div>
         <h3>外見的特徴</h3>
         <div class="box">{st.app}</div>
-        <h3>ライフパス</h3>
+        <h3>詳細設定</h3>
         <div class="box">{st.life}</div>
         <h3>一人称</h3>
         <div class="box">{st.first_person}</div>
@@ -88,7 +88,7 @@ function renderUser(users, name) {
         <div class="box">{st.honorific}</div>
         <h3>口調</h3>
         <div class="box">{st.expression}</div>
-        <h3>口調例</h3>
+        <h3>台詞例</h3>
         <div class="box">{st.expression_sample}</div>
 
       </div>
