@@ -19,7 +19,14 @@ const ragaTable =
   "非会員": "Ragadoon\nnon-member",
 }
 
+function renderFigcaption(cap){
+  if(!cap || cap === "")return "";
+  const m = cap.match(/https?:\/\/[\w!?\/\+\-_~=;\.,*&@#$%\(\)\'\[\]]+/);
+  const c = cap.replace(/https?:\/\/[\w!?\/\+\-_~=;\.,*&@#$%\(\)\'\[\]]+/,"");
 
+  if(m) return (<><a href={m[0]}>出典</a> {c}</>);
+  return "出典:" + c;
+}
 
 function renderUser(users, name) {
   if (users.length === 0) return <div class="student-info" style={{ backgroundImage: `url(${oldPaper})`, width: "100%", display: "flex", justifyContent: "center" }}>
@@ -46,7 +53,7 @@ function renderUser(users, name) {
           </div>
         </div>
         <div class={st.chara_card ? "mini-grid" : "mini-table" }>
-          { st.chara_card ? <img src={ st.chara_card } /> : "" }
+          { st.chara_card ? <figure class="chara-card"><img src={ st.chara_card } /><figcaption>{renderFigcaption(st.chara_card_by)} </figcaption></figure> : "" }
           <table class="a2">
             <tr>
               <th>出自</th>

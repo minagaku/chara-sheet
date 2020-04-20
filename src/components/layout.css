@@ -940,13 +940,15 @@ main > div {
   "a1 a3"
 }
 
-.mini-grid img {
+.chara-card {
   grid-row: 1/2;
   grid-area: a1;
   margin: 1em;
   max-width:300px;
+}
+.chara-card img {
   box-shadow: 3px 3px 5px #00000066;
-  
+  margin:0;
 }
 
 .mini-grid .a2{
