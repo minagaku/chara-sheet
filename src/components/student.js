@@ -37,6 +37,7 @@ function renderUser(users, name) {
   const st = users.find(x => x.fullname === name);
   if (!st) return <div>学生 {name} が見つかりません</div>
   return <>
+    <style>{ `#logo{height:50px} header{height:50px}` }</style>
     <FusenList users={users} current={name} />
     <div class="student-info student-detail" style={{ backgroundImage: `url(${oldPaper})` }}>
       <div class="student-info2">

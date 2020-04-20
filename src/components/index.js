@@ -21,6 +21,7 @@ const ragaTable =
 const IndexPage = () => (
   <UsersContext.Consumer>{users =>
     <>
+    <style>{ `#logo{height:100px} header{height:100px} main{margin-top:120px}` }</style>
     <SEO title="Home" />
     <div class="container">
       {users.users.length === 0 ? <Loading /> : users.users.map(st => <article class="student-info student-info-index" style={{ backgroundImage: `url(${oldPaper})`}}>
