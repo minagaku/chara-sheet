@@ -760,13 +760,13 @@ h1 a {
 }
 
 .student-info .box {
-  height:10em;
+  max-height:10em;
   border: 1px;
   white-space: pre-line;
-  overflow-y: scroll;
+  overflow-y: auto;
   background: #FFFFFF66;
   box-shadow: 0 0 10px 10px #FFFFFF66;
-  padding:1em;
+  padding:0.5em;
 }
 .student-info2 {
   background:#FFFFFF66;

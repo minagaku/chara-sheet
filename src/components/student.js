@@ -41,7 +41,7 @@ function renderUser(users, name) {
     <FusenList users={users} current={name} />
     <div class="student-info student-detail" style={{ backgroundImage: `url(${oldPaper})` }}>
       <div class="student-info2">
-        <h2>
+        <h2 style={ st.fullname.length >= 15 ? { marginTop: "1em"} : undefined}>
           <Link to={`/${st.fullname}`}>{st.fullname}</Link>
           <span class="age">{st.age}歳 {st.sex}</span>
         </h2>
@@ -98,7 +98,22 @@ function renderUser(users, name) {
         <div class="box">{st.expression}</div>
         <h3>台詞例</h3>
         <div class="box">{st.expression_sample}</div>
-
+        <h3>能力値</h3>
+        <div class="box">
+          <table>
+            <tr>
+              <th>筋力</th><th>反射</th><th>感覚</th><th>知力</th><th>精神</th><th>共感</th>
+            </tr>
+            <tr>
+              <td>{st.status_str}</td>
+              <td>{st.status_agi}</td>
+              <td>{st.status_feel}</td>
+              <td>{st.status_int}</td>
+              <td>{st.status_mnd}</td>
+              <td>{st.status_emp}</td>
+            </tr>
+          </table>
+        </div>
       </div>
     </div>
   </>
