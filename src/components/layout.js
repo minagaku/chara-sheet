@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
       .then(rd => {
         setUsers(rd.sort((x,y) => x.fullname.localeCompare(y.fullname, 'ja')));
       })
-  });
+  },[]);
 
   return (
     <>
