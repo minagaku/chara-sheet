@@ -8,15 +8,15 @@ import StudentPage from "../components/student";
 import { UsersProvider } from "../context/UsersContext";
 
 const RootPage = (props) => (
-      <UsersProvider>
+  <UsersProvider>
     <Layout>
       <Router basepath="/students">
+        <StudentPage path=":name" />
         <IndexPage path="/" />
         <IndexPage path="/index.html" />
-        <StudentPage path=":name" />
       </Router>
     </Layout>
-      </UsersProvider>
+  </UsersProvider>
 )
 
 export default RootPage

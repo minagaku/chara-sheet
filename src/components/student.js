@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useContext } from "react"
 import { Link } from "gatsby"
 
 import Layout from "./layout"
@@ -34,6 +34,7 @@ function renderUser(users, name) {
       <Loading />
     </div>
   </div>
+  
   const st = users.find(x => x.fullname === name);
   if (!st) return <div>学生 {name} が見つかりません</div>
   return <>
@@ -119,13 +120,14 @@ function renderUser(users, name) {
   </>
 }
 
-const StudentPage = (props) =>
-  <UsersContext.Consumer>{users =>
-    <>
-      <SEO title={props.name} />
-      {renderUser(users.users, props.name)}
-    </>
-  }
-  </UsersContext.Consumer>
+const StudentPage = (props) => {
+  const {users} = useContext(UsersContext);
+  return <>
+    <SEO title={props.name} />
+    {
+      renderUser(users, props.name)
+    }
+  </>
+}
 
 export default StudentPage
