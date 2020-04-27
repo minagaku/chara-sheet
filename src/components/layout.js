@@ -5,11 +5,11 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React,{useEffect,useState,useContext} from "react"
+import React, { useEffect, useState, useContext } from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql  } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 
-import UsersContext from "../context/UsersContext"
+import UsersContext, { UsersProvider } from "../context/UsersContext"
 import Header from "./header"
 import "./layout.css"
 
@@ -24,14 +24,17 @@ const Layout = ({ children }) => {
     }
   `)
 
-  const {users,setUsers} = useContext(UsersContext);
-  useEffect( () => {
+  const { users, loading, setUsers, setLoading } = useContext(UsersContext);
+  useEffect(() => {
+    console.log("start loading")
+    setLoading(true);
     fetch(`https://script.google.com/macros/s/AKfycby2ZIx5H7J96SFGuLzLoU0ePgqgcq6ILYFowa6rQ70nmhVLR7MU/exec`)
-      .then( r => r.json())
+      .then(r => r.json())
       .then(rd => {
-        setUsers(rd.sort((x,y) => x.fullname.localeCompare(y.fullname, 'ja')));
+        setUsers(rd.sort((x, y) => x.fullname.localeCompare(y.fullname, 'ja')));
+        setLoading(false);
       })
-  });
+  }, []);
 
   return (
     <>
