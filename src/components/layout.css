@@ -872,15 +872,6 @@ header {
   z-index:1000;
   display:flex;
   flex-direction: row;
-  overflow:hidden;
-}
-header .loading {
-  position:absolute;
-  top: 0;
-  left: 0;
-  width:100px;
-  height:100%;
-
 }
 
 header a.link{

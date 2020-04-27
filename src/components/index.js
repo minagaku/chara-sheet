@@ -1,4 +1,4 @@
-import React, { useContext } from "react"
+import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "./layout"
@@ -18,15 +18,13 @@ const ragaTable =
   "非会員": "Ragadoon\nnon-member",
 }
 
-const IndexPage = () => {
-  const state = useContext(UsersContext);
-
-  return <>
+const IndexPage = () => (
+  <UsersContext.Consumer>{users =>
+    <>
     <style>{ `#logo{height:100px} header{height:100px} main{margin-top:120px}` }</style>
     <SEO title="Home" />
     <div class="container">
-      {
-        state.users.length === 0 ? <Loading /> : state.users.map(st => <article class="student-info student-info-index" style={{ backgroundImage: `url(${oldPaper})`}}>
+      {users.users.length === 0 ? <Loading /> : users.users.map(st => <article class="student-info student-info-index" style={{ backgroundImage: `url(${oldPaper})`}}>
         <div class="student-info2">
         <h2>
           <Link to={`/${st.fullname}`}>
@@ -45,6 +43,8 @@ const IndexPage = () => {
       </article>)}
     </div>
     </>
-}
+  }
+  </UsersContext.Consumer>
+)
 
 export default IndexPage

@@ -1,42 +1,29 @@
-import React, { useContext, useState, useCallback } from "react"
+import React from "react"
 const defaultState = {
-  users: [],
-  setUsers: () => { },
-  loading: false,
-  setLoading: () => { }
+    users: []
 }
-
-function tryGetUsers()
-{
-  const u = typeof window !== 'undefined' && window.localStorage.getItem("users");
-  if(!u) return [];
-  try
-  {
-    return JSON.parse(u)
-  }catch{
-    return [];
-  }
-}
-
 const UsersContext = React.createContext(defaultState)
-const UsersProvider = (props) => {
-  const [users, setSUsers] = useState(tryGetUsers());
-  const [loading, setLoading] = useState(false);
-  const { children } = props
-  const setUsers = (newUsers) => {
-    console.log(newUsers)
-    typeof window !== 'undefined' && window.localStorage.setItem("users", JSON.stringify(newUsers))
-    setSUsers(newUsers);
+class UsersProvider extends React.Component {
+  state = {
+      users: []
   }
-  const store = {
-    users : [users,setSUsers],
-    loading: [loading,setLoading]
+  setUsers = (newUsers) => {
+    this.setState({ users: newUsers })
   }
-  return (
-    <UsersContext.Provider value={{ users,loading,setUsers, setLoading }} >
-      {children}
-    </UsersContext.Provider>
-  )
+  render() {
+    const { children } = this.props
+    const { users } = this.state
+    return (
+      <UsersContext.Provider
+        value={{
+          users,
+          setUsers: this.setUsers
+        }}
+      >
+        {children}
+      </UsersContext.Provider>
+    )
+  }
 }
 export default UsersContext
 export { UsersProvider }
