@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import { Router } from "@reach/router"
-import IndexPage from "../components";
+import IndexPage from "../components/indexPage";
 import Default from "../components/default"
 import StudentPage from "../components/student";
 import { UsersProvider } from "../context/UsersContext";
